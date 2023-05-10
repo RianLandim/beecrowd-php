@@ -1,6 +1,6 @@
 <?php
 
-$input = readline();
+$input = fgets(STDIN);
 $lines = explode("\n", $input);
 
 list($a, $b, $c) = array_map("floatval", explode(" ", trim(array_shift($lines))));
